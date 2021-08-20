@@ -1,0 +1,32 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+#container {
+  display: grid;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  background-color: grey;
+  height: fit-content;
+}
+
+#main-nav {
+  margin-left: auto;
+}
+
+.sidebar-image {
+  width: 40%;
+  min-width: 40%;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  bottom: 0;
+  background-color: grey;
+}
