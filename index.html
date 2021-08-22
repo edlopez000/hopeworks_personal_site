@@ -4,44 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Droning About</title>
+    <title>Droning About - History</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
   </head>
   <body>
-    <div id="container">
-      <header class="header">
-        <h1 id="title">Droning About</h1>
-        <nav id="main-nav">
-          <ul>
-            <a href="">History</a
-            >|
-            <a href="">Tools Used</a
-            >|
-            <a href="">Flying</a
-            >|
-            <a href="">Communities</a
-            >|
-          </ul>
-        </nav>
-      </header>
+    <section>
+      <div class="container">
+        <header class="page-header">
+          <img src="/assets/logo.png" alt="logo" id="logo-img" />
+          <p id="title">Droning About</p>
+          <nav id="main-nav">
+            <ul>
+              <form><button formaction="/index.html">History</button></form>
+              <form>
+                <button formaction="/tools.html">Tools of the Trade</button>
+              </form>
+              <form><button formaction="#">Flying</button></form>
+              <form><button formaction="#">Communities</button></form>
+            </ul>
+          </nav>
+        </header>
+        <main class="page-body">
+          <div class="sidebar">
+            <figure>
+              <img
+                src="/assets/fpv_drone.jpg"
+                alt="Image of a drone"
+                class="sidebar-image"
+              />
+            </figure>
+          </div>
 
-      <main>
-        <div class="sidebar">
-          <figure>
-            <img
-              src="/assets/fpv_drone.jpg"
-              alt="Image of a drone"
-              class="sidebar-image"
-            />
-          </figure>
-        </div>
-      </main>
-
-      <footer id="footer">
-        <p>&copy; me but is that really how that works?</p>
-      </footer>
-    </div>
-    <!--End of container-->
+          <article>
+            <h1 class="page-title">Title</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit
+              amet finibus tortor. Proin vehicula eros egestas, semper ipsum at,
+              feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In vehicula dolor diam, vitae faucibus ante porttitor at.
+              Integer lacinia, ante in posuere elementum, ipsum leo semper leo,
+              rhoncus sagittis nibh nisi ultrices erat. Pellentesque in
+              tristique lacus. Ut malesuada convallis lacinia. Maecenas pharetra
+              semper sem eu facilisis. Morbi tincidunt diam semper quam iaculis
+              consequat. Nullam sit amet condimentum dolor, id dignissim arcu.
+              Donec dictum, ipsum in scelerisque luctus, lorem tortor tincidunt
+              orci, a tincidunt massa turpis nec orci. Proin tempor ligula non
+              nisl lacinia, cursus volutpat leo elementum. Donec nec mauris et
+              odio pellentesque congue at et nisi.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit
+              amet finibus tortor. Proin vehicula eros egestas, semper ipsum at,
+              feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. In vehicula dolor diam, vitae faucibus ante porttitor at.
+              Integer lacinia, ante in posuere elementum, ipsum leo semper leo,
+              rhoncus sagittis nibh nisi ultrices erat. Pellentesque in
+              tristique lacus. Ut malesuada convallis lacinia. Maecenas pharetra
+              semper sem eu facilisis. Morbi tincidunt diam semper quam iaculis
+              consequat. Nullam sit amet condimentum dolor, id dignissim arcu.
+              Donec dictum, ipsum in scelerisque luctus, lorem tortor tincidunt
+              orci, a tincidunt massa turpis nec orci. Proin tempor ligula non
+              nisl lacinia, cursus volutpat leo elementum. Donec nec mauris et
+              odio pellentesque congue at et nisi.
+            </p>
+          </article>
+        </main>
+        <footer class="page-footer">
+          <p>copyright &copy; 2021 me but is that really how that works?</p>
+        </footer>
+      </div>
+      <!--End of Container-->
+    </section>
   </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "hopeworks_personal_site",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edlopez000/hopeworks_personalsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edlopez000/hopeworks_personalsite/issues"
+  },
+  "homepage": "https://github.com/edlopez000/hopeworks_personalsite#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
