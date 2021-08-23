@@ -95,14 +95,49 @@ button:hover {
 
 article > p {
   font-size: 1.2rem;
+  position: relative;
+  bottom: 0;
 }
 
 article {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0px;
+  bottom: 0;
+}
+
+.article-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .article-title {
-  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.article-image {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fpv-osd {
+  box-shadow: 0px 2px 15px 0px rgb(75, 70, 74);
+}
+
+#build-drone {
+  width: 600px;
+  justify-items: center;
+  box-shadow: 0px 2px 15px 0px rgb(75, 70, 74);
+}
+
+.tool-fig {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
