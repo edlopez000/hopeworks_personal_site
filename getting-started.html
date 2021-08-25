@@ -13,13 +13,26 @@
     <section>
       <div class="container">
         <header class="page-header">
-          <img src="/assets/logo.png" alt="logo" id="logo-img" />
-          <p id="title">Droning About</p>
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="logo" id="logo-img" />
+          </a>
+          <h1>
+            <a id="title" href="/index.html">Droning About</a>
+          </h1>
           <nav id="main-nav">
             <ul>
               <form>
                 <button
                   formaction="/index.html"
+                  title="Home"
+                  aria-label="Home"
+                >
+                  Home
+                </button>
+              </form>
+              <form>
+                <button
+                  formaction="/history.html"
                   title="Learn about the history of FPV"
                   aria-label="History"
                 >
@@ -40,6 +53,7 @@
                   formaction="/getting-started.html"
                   title="Learn how to get started in FPV"
                   aria-label="Getting Started"
+                  class="current-page"
                 >
                   Getting Started
                 </button>
@@ -82,7 +96,7 @@
               instruments, it is best to practice with a RC transmitter.
               <ul class="additional-links">
                 <li>
-                  <a href="https://www.velocidrone.com/"
+                  <a href="https://www.velocidrone.com/" target="_blank" rel="noopener noreferrer"
                     >Velocidrone</a
                   >
                 </li>

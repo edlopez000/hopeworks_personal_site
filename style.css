@@ -149,3 +149,24 @@ article {
   list-style: "\1F44D";
   font-size: 1.2rem;
 }
+
+#title {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.current-page {
+  font-weight: bold;
+}
+
+#splash-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shadow {
+  box-shadow: 0px 2px 15px 0px rgb(75, 70, 74);
+}

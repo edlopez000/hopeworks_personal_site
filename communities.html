@@ -13,13 +13,22 @@
     <section>
       <div class="container">
         <header class="page-header">
-          <img src="/assets/logo.png" alt="logo" id="logo-img" />
-          <p id="title">Droning About</p>
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="logo" id="logo-img" />
+          </a>
+          <h1>
+            <a id="title" href="/index.html">Droning About</a>
+          </h1>
           <nav id="main-nav">
             <ul>
               <form>
+                <button formaction="/index.html" title="Home" aria-label="Home">
+                  Home
+                </button>
+              </form>
+              <form>
                 <button
-                  formaction="/index.html"
+                  formaction="/history.html"
                   title="Learn about the history of FPV"
                   aria-label="History"
                 >
@@ -49,6 +58,7 @@
                   formaction="/communities.html"
                   title="Learn about FPV communities"
                   aria-label="Communities"
+                  class="current-page"
                 >
                   Communities
                 </button>
