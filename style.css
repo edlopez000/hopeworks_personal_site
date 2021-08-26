@@ -200,3 +200,13 @@ article {
   justify-content: flex-start;
   align-items: center;
 }
+
+#contact-me-submit {
+  border: black 1px solid;
+}
+
+#contact-me-form {
+  display: none;
+  visibility: none;
+  flex-direction: column;
+}

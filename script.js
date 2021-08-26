@@ -11,4 +11,14 @@ window.addEventListener("load", function () {
       img.setAttribute("src", "/assets/remote.jpg");
     });
   }
+
+  if (document.title === "Droning About - Communities") {
+    let contactLink = document.getElementById("contact-link");
+    let contactForm = document.getElementById("contact-me-form");
+
+    contactLink.addEventListener("mouseover", function () {
+      contactForm.style.display = "flex";
+      contactForm.style.visibility = "visible";
+    });
+  }
 });
