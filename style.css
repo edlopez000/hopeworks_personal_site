@@ -170,3 +170,23 @@ article {
 .shadow {
   box-shadow: 0px 2px 15px 0px rgb(75, 70, 74);
 }
+
+#flying-drone-gif {
+  width: 200px;
+  display: none;
+  visibility: hidden;
+}
+
+#drone-instructions {
+  text-align: left;
+  display: none;
+  visibility: hidden;
+  margin: 15px;
+  font-weight: bold;
+}
+
+#takeoff-location{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

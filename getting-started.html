@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Droning About - Getting Started</title>
     <script src="script.js"></script>
+    <script src="flying.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
   </head>
@@ -22,11 +23,7 @@
           <nav id="main-nav">
             <ul>
               <form>
-                <button
-                  formaction="/index.html"
-                  title="Home"
-                  aria-label="Home"
-                >
+                <button formaction="/index.html" title="Home" aria-label="Home">
                   Home
                 </button>
               </form>
@@ -91,35 +88,51 @@
               particular reason, it is recommended that you practice in a
               simulator beforehand. No simulator achieves a perfect simulacrum
               of real-world flight but they do help in teaching the mechanics of
-              flying with gimbals. The one that is most recommended is
-              Velocidrone. While the simulator can be played using many
-              instruments, it is best to practice with a RC transmitter.
-              <ul class="additional-links">
-                <li>
-                  <a href="https://www.velocidrone.com/" target="_blank" rel="noopener noreferrer"
-                    >Velocidrone</a
-                  >
-                </li>
-              </ul>
+              flying with gimbals (also called sticks). The one that is most
+              recommended is Velocidrone. While the simulator can be played
+              using many instruments, it is best to practice with a RC
+              transmitter. But if you want to get experience right now, you can
+              try out Droning About's proprietary simulator software by clicking
+              the link below.
             </p>
+
+            <ul class="additional-links">
+              <li>
+                <a
+                  href="https://www.velocidrone.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Velocidrone</a
+                >
+              </li>
+              <li>
+                <a href="#" id="flight-sim"> Veloci-Droning About </a>
+              </li>
+            </ul>
             <h2>Flying</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit
-              amet finibus tortor. Proin vehicula eros egestas, semper ipsum at,
-              feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. In vehicula dolor diam, vitae faucibus ante porttitor at.
-              Integer lacinia, ante in posuere elementum, ipsum leo semper leo,
-              rhoncus sagittis nibh nisi ultrices erat. Pellentesque in
-              tristique lacus. Ut malesuada convallis lacinia. Maecenas pharetra
-              semper sem eu facilisis. Morbi tincidunt diam semper quam iaculis
-              consequat. Nullam sit amet condimentum dolor, id dignissim arcu.
-              Donec dictum, ipsum in scelerisque luctus, lorem tortor tincidunt
-              orci, a tincidunt massa turpis nec orci. Proin tempor ligula non
-              nisl lacinia, cursus volutpat leo elementum. Donec nec mauris et
-              odio pellentesque congue at et nisi.
+              Flying is all about putting together all the things you learned in
+              your simulator practice hours. You should understand the
+              transmitter well enough to be able to identify how the two sticks
+              control the throttle, yaw, roll, and pitch. In the first couple
+              flying sessions, practicing landing and taking off is key. Losing
+              a drone in your first flight is never fun and neither is having to
+              look for it in a large field. Aside from the mechanics of flying,
+              picking locations that are safe for everyone is also important.
+              Drones can go pretty fast and their propellers spin even faster.
+              It’s important to select locations that are relatively isolated.
             </p>
+
+            <div id="takeoff-location">
+              <img
+                src="/assets/drone_still.png"
+                alt="gif of a drone"
+                id="flying-drone-gif"
+              />
+            </div>
           </article>
         </main>
+        <p id="drone-instructions">Directions: Control the drone with your arrow keys. <br/>Note: Drone won't start until you press up with your arrow keys!</p>
         <footer class="page-footer">
           <p>copyright &copy; 2021 me but is that really how that works?</p>
         </footer>
