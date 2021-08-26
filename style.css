@@ -108,6 +108,12 @@ button:hover {
   font-size: 1.2rem;
 }
 
+.page-footer > a {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
 #tool-article {
   display: flex;
   flex-direction: column;
@@ -150,6 +156,10 @@ article {
   font-size: 1.2rem;
 }
 
+.additional-links a {
+  text-decoration: none;
+}
+
 #title {
   text-decoration: none;
   color: white;
@@ -185,7 +195,7 @@ article {
   font-weight: bold;
 }
 
-#takeoff-location{
+#takeoff-location {
   display: flex;
   justify-content: flex-start;
   align-items: center;

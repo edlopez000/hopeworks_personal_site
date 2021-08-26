@@ -50,7 +50,7 @@ function playerMute() {
 }
 
 window.addEventListener("load", function () {
-  playerMute();
+  playerMute(); //Still deciding on wether the video should be muted or not
 
   let playerWindow = document.querySelector("#player");
 
