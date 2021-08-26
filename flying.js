@@ -4,6 +4,8 @@ window.addEventListener("load", function () {
   let drone = document.getElementById("flying-drone-gif");
   let flightInstructions = document.getElementById("drone-instructions")
 
+  let windowWidth = window.innerWidth;
+
   flightLink.addEventListener("click", function (event) {
     drone.style.display = "block";
     drone.style.visibility = "visible";
@@ -13,7 +15,7 @@ window.addEventListener("load", function () {
 
 
   drone.style.position = "absolute";
-  drone.style.left = "600px";
+  drone.style.left = (windowWidth/2) + 'px';
   drone.style.bottom = "40px";
 
   function powerCheck () {
