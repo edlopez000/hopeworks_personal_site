@@ -2,7 +2,7 @@ window.addEventListener("load", function () {
 
   let flightLink = document.getElementById("flight-sim");
   let drone = document.getElementById("flying-drone-gif");
-  let flightInstructions = document.getElementById("drone-instructions")
+  let flightInstructions = document.getElementById("drone-instructions");
 
   let windowWidth = window.innerWidth;
 
@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
       drone.style.left = movement;
     }
 
-    if (event.key === "ArrowRight" && parseInt(drone.style.left) < 1290) {
+    if (event.key === "ArrowRight" && parseInt(drone.style.left) < windowWidth - 220) {
       movement = parseInt(drone.style.left) + 15 + "px";
       console.log(typeof drone.style.left);
       console.log("Left: " + movement);
