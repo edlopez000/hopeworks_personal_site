@@ -4,6 +4,7 @@ tag.src = "https://www.youtube.com/player_api";
 let firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+// creating a YT.Player Object and assigning  it to the player variable
 let player;
 function onYouTubePlayerAPIReady() {
   player = new YT.Player("player", {
